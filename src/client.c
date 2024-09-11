@@ -1,7 +1,7 @@
 
 #include "../inc/minitalk.h"
 
-volatile int		g_confirmation;
+int		g_confirmation;
 
 void	char_to_bit(pid_t pid, char c)
 {
@@ -18,7 +18,7 @@ void	char_to_bit(pid_t pid, char c)
 			;
 		g_confirmation = 0;
 		bit--;
-		usleep(100);
+		//usleep(100);
 	}
 
 }
