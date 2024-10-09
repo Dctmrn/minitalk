@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mrn <mrn@student.42.fr>                    +#+  +:+       +#+        */
+/*   By: marida-c <marida-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/06 13:59:46 by marida-c          #+#    #+#             */
-/*   Updated: 2024/09/10 17:29:49 by mrn              ###   ########.fr       */
+/*   Updated: 2024/09/24 16:58:54 by marida-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@
 
 int		ft_atoi(const char *nptr);
 long	ft_atol(const char *nptr);
-void    ft_putstr(char *str);
+void	ft_putstr(char *str);
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
 int		ft_isalnum(int c);
